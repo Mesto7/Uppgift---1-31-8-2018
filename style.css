@@ -1,0 +1,248 @@
+@import "reset.css";
+/*-----------------------------------*/
+
+/*-------------- head -----------------*/
+
+.top-left img {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    width: 50px;
+    height: 50px;  
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 350px;
+
+}
+
+.top-right-1 {
+    position: absolute;
+    top: 8px;
+    right: 240px;
+}
+
+.top-right-2 {
+    position: absolute;
+    top: 8px;
+    right: 150px;
+}
+
+.top-right-3 {
+    position: absolute;
+    top: 8px;
+    right: 50px;         
+}
+
+/*--------------- body ---------------*/
+body {
+    margin: 0%;    
+    background-color: none;
+}
+
+.col-1 h3 {
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 134px;
+    font-size: 2em;
+}
+
+.col-0 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    padding: 130px;
+    font-size: 3em;
+    background-color: #f3f704
+ 
+}
+
+.col-0 p { 
+    font-size: 0.5em
+}
+.col-0 img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    bottom: -78px;
+}
+/*----- class= col-4 -----*/
+.col-4 h4 {
+    padding: 20px;
+}
+.col-4 img {
+    border-radius: 50%;
+}
+
+.row .col-4 {
+    padding: 15px;
+    
+}
+
+/*-----class=.col-7 -----*/
+.col-7 .re {
+    font-size: 1.2em;
+    position: relative;
+    top: 246px;
+    background-color: #f3f704;
+}
+
+.col-7 .tr {
+    background-color: #ccc;
+    position: relative;
+    top: 245px;
+}
+
+.col-7 img  {
+ /*   display: inline;   */
+    width: 150px;
+    height: 155px;
+    padding: 8px;
+    align-content: center;
+    margin: 5px;
+    position: relative;
+    top: 27px;
+}
+
+.tr a img{
+   position: relative;
+   bottom: -25px;
+   width: 230px;
+   height: 97px;
+}
+
+.re iframe {
+    float: right;
+    padding: 0 20px;
+    position: relative;
+    right: 262px;
+    top: 20px;
+}
+
+.col-7 .re p {
+    width: 24%;
+    float: right;
+    position: relative;
+    left: 80px;
+    top: 219px;
+    font-size: 12px;
+}
+
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+  
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 128px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    bottom: -3px;
+    right: -1px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.col-7 article {
+   
+    padding: 20px;
+    width: 28%;
+    position: relative;
+    bottom: 17px;
+    margin-left: 306px;
+    height: 228px;
+}
+
+#subject {
+    height: 40px;
+}
+
+/*----- class=.col-8 -----*/
+.col-8 {
+    position: relative;
+    top: 20px;
+}
+
+#col-8 .en {
+    height: 150px;
+    position: relative;
+    top: 18px;
+    background-color: wheat;
+}
+
+#col-8 img {
+    width: 80px;
+    height: 92px;
+    /* padding-top: 50px; */
+    position: relative;
+    /* bottom: 0px; */
+    right: -20px;
+}
+
+#col-8 .en div {
+    display: inline; 
+    padding: 16px;
+    position: relative;
+    bottom: 25px;
+    right: -22px;
+    color: rgb(10, 2, 2);
+}
+
+#col-8 article img  { 
+    width: 57px;
+    height: 59px;
+    position: relative;
+    bottom: -117px;
+    left: 15px;
+   
+}
+
+#col-8 article {
+   position: relative;
+   top: -126px;
+   margin: 0%; 
+}
+
+/*--------- MAIN ----------*/
+main {
+    margin: 0;  
+
+   /* padding-bottom: 10px;
+    padding: 10px;  */
+    
+    
+}
+
+section {
+    margin: 20px 0px;
+}
+
+.box {
+    height: 300px;
+    padding: 5px;   
+    text-align: center;
+}
+
+.footer  {
+    background-color: black;
+    color: #fbfdfb;
+    height: 40px;
+    text-align: center;
+    padding: 11px;
+
+}

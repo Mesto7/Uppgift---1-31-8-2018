@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+
+
+.row {
+    max-width: 100%; 
+ /*   max-width: 1000px;  
+    margin: 0 auto;  */ 
+}
+
+.row::after {
+    content: "";   
+    clear: both;
+    display: table;  
+}
+
+.col-4 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 320px;
+    position: relative;
+    left: 155px;
+    
+}
